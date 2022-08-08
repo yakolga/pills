@@ -85,6 +85,7 @@ a:hover {
   margin: 0 auto;
 }
 .header__language {
+  position: relative;
   background: #2B303A;
   width: 50px;
   height: 30px;
@@ -97,6 +98,38 @@ a:hover {
   .header__language {
     margin-top: 20px;
   }
+}
+
+.links {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.links__arrow {
+  width: 10px;
+  margin-left: 3px;
+}
+.links__flag {
+  position: relative;
+  max-height: 15px;
+  margin-right: 3px;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  min-width: 50px;
+  background-color: aliceblue;
+  padding: 10px;
+  z-index: 100;
+  top: 0;
+}
+
+.none {
+  display: none;
 }
 
 .promo {
