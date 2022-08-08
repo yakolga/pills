@@ -27,7 +27,6 @@
 }
 
 .links {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +36,6 @@
     margin-left: 3px;
   }
   &__flag {
-    position: relative;
     max-height: 15px;
     margin-right: 3px;
   }
@@ -45,15 +43,15 @@
 
 .menu {
   position: absolute;
-  display: flex;
+  // display: flex;
   justify-content: center;
-  min-width: 50px;
+  // min-width: 50px;
   background-color: aliceblue;
   padding: 10px;
   z-index: 100;
-  top: 0;
 }
 
 .none {
   display: none;
+  transition: 0.5s all;
 }
