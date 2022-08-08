@@ -1,0 +1,13 @@
+.text {
+  padding-bottom: 30px;
+  background: #61D7C7;
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__text {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 33px;
+  }
+}

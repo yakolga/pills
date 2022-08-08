@@ -1,0 +1,65 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style: none
+}
+
+a {
+  color: #FFFFFF;;
+  text-decoration: none;
+
+  &:hover {
+    color: #61D7C7;;
+    transition: 0.2s all;
+  }
+}
+
+.button {
+  padding: 15px 20px; 
+  background: #61D7C7;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 19px;
+  color: #FFFFFF;
+  max-width: 194px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button:hover {
+  background: #FFFF;
+  color: #61D7C7;
+  transition: 0.2s all;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 27px;
+  color: #2B303A;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@import "fonts";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/buy";
+@import "blocks/reviews";
+@import "blocks/linear";
+@import "blocks/text";
+@import "blocks/footer";

@@ -1,0 +1,17 @@
+.footer {
+  padding: 30px 0;
+  p {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  a {
+    color: #2B303A;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
