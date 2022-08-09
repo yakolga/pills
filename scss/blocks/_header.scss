@@ -8,8 +8,11 @@
   &__link {
     margin: 0 auto;
   }
-  &__language {
+  .links {
     position: relative;
+  }
+  &__language {
+    display: block;
     background: #2B303A;
     width: 50px;
     height: 30px;
