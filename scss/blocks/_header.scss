@@ -4,9 +4,17 @@
   &__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+  &__button {
+    position: relative;
+    max-width: 50px;
   }
   &__link {
+    font-size: 14px;
+    line-height: 19px;
     margin: 0 auto;
+    padding-right: 20px;
   }
   .links {
     position: relative;
@@ -46,12 +54,13 @@
 
 .menu {
   position: absolute;
-  // display: flex;
+  display: flex;
   justify-content: center;
-  // min-width: 50px;
   background-color: aliceblue;
   padding: 10px;
   z-index: 100;
+  right: 0;
+  width: 100%;
 }
 
 .none {
